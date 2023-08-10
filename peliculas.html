@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <script defer src="./main.js"></script>
+
+    <title>Peliculas</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg header">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./imagenes/logo5.png" alt="logo"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Historia">Historia</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Mas info
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="peliculas.html">Películas</a></li>
+                <li>
+                  <a class="dropdown-item" href="impacto.html"
+                    >Impacto</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./imagenes/c2.gif" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>"Si atrapas un pez con rostro habrá una desgracia. Eso dicen."</h5>
+            <p>-Ponyo</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/c8.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>“Un corazón es una carga pesada de llevar”.</h5>
+            <p>-El castillo ambulante</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./imagenes/c10.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>"Nada de lo que sucede se olvida.<br>
+              Incluso si ya no lo recuerdas.</h5>
+            <p>-El viaje de Chihiro"
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  <div class="presentacion">
+    <h1>Bienvenidos al Maravilloso Mundo del Studio Ghibli</h1>
+    <p>El Studio Ghibli es un renombrado estudio de animación japonés que ha cautivado a las audiencias de todo el mundo con sus películas únicas y emocionales. Fundado en 1985 por los legendarios cineastas Hayao Miyazaki e Isao Takahata, el estudio se ha destacado por su enfoque en la narrativa profunda, los personajes memorables y la animación exquisita. En esta página, exploraremos la historia del Studio Ghibli y destacaremos algunas de sus mejores obras maestras.</p>
+  </div> 
+  <div class="container-fluid box">
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p10.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">El cuento de la princesa Kaguya</h5>
+          <p class="card-text">Encontrada dentro de un brillante tallo de bambú por un viejo cortador de bambú y su esposa, una niña diminuta se convierte rápidamente en una hermosa joven que cautiva a todos los que la conocen, pero debe enfrentar su destino.</p>
+          <a href="https://www.netflix.com/watch/80013552?source=35" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p13.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Puedo escuchar el mar</h5>
+          <p class="card-text">La llegada de una hermosa estudiante de Tokio provoca un gran cambio en la relación de dos mejores amigos.<br><strong>
+            Fecha de estreno:</strong> 5 de mayo de 1993 (Japón)<br>
+            <strong>Director:</strong> Tomomi Mochizuki<br>
+            <strong>Basada en:</strong> mi ga Kikoeru de Saeko Himuro</p>
+          <a href="https://www.netflix.com/watch/80158668?source=35" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p11.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">El viaje de Chihiro</h5>
+          <p class="card-text">Chihiro es una niña caprichosa que debe adentrarse en un mundo de fantasía para poder salvar a sus padres, convertidos en cerdos.
+            Fecha de estreno: 12 de septiembre de 2003 (México)
+            <b>Director:</b> Hayao Miyazaki
+<b>Productoras:</b> Studio Ghibli, Walt Disney Pictures, Tokuma Shoten<br>
+<b>Premios:</b> Premio Óscar a la Mejor Película de Animación, MÁS
+          </p>
+          <a href="https://www.netflix.com/watch/60023642?source=35" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p12.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">El recuerdo de Marnie</h5>
+          <p class="card-text">Anna es una niña solitaria de 12 años que vive con sus padres adoptivos. Un verano, mientras está en Hokkaido, Anna explora una villa abandonada, donde conoce a una misteriosa chica rubia a la que solamente ella puede ver.</p>
+          <a href="https://www.netflix.com/watch/80036398?source=35s" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+      <div class="container-fluid main">
+        <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">El increíble castillo vagabundo</h5>
+          <p class="card-text">Después de que una bruja (Lauren Bacall) la transforma en una anciana, una fabricante (Jean Simmons) de sombreros busca refugio en la casa ambulante de un singular mago (Christian Bale).</p>
+          <a href="https://www.netflix.com/watch/70028883?source=35" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">La colina de las amapolas</h5>
+          <p class="card-text">Unos adolescentes de Yokohama intentan evitar que la casa club de su escuela sea demolida.</p>
+          <a href="https://www.netflix.com/watch/70262786?source=35" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p9.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Arrietty y el mundo de los diminutos</h5>
+          <p class="card-text">Arrietty, una pequeña joven, vive con sus padres en una casa de los suburbios, a escondidas del dueño y la ama de casa. Como otros de su especie, Arrietty se mantiene oculta de sus anfitriones humanos, pero ocasionalmente se aventura más allá de los pisos en busca de azúcar y otros suministros.</p>
+          <a href="https://www.netflix.com/watch/70216227?source=35" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./imagenes/p14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ponyo y el secreto de la sirenita</h5>
+          <p class="card-text">Durante una excursión prohibida para ver el mundo de la superficie, una princesa pez de colores conoce a un niño llamado Sosuke, quien le pone el nombre de Ponyo. Ponyo quiere volverse un humano, y mientras crece su amistad, ella se vuelve más humana.</p>
+          <a href="https://www.netflix.com/watch/70106454?source=35" class="btn btn-primary">Mirar ahora</a>
+        </div>
+      </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagenes/p1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Kiki: entregas a domicilio</h5>
+      <p class="card-text">Al cumplir los 13 años, la brujita Kiki debe, como manda la tradición, abandonar su casa y, así, llega a una ciudad donde un panadero la contrata para repartir el pan con su escoba. Un día, Kiki descubre que ya no puede hacer levitar su escoba.</p>
+      <a href="https://www.netflix.com/watch/60027106?source=35" class="btn btn-primary">Mirar ahora</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagenes/p21.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">El regreso del gato</h5>
+      <p class="card-text">Haru salva a un gato que iba a morir atropellado y descubre que el felino es el príncipe de los gatos. El minino, agradecido, quiere casarse con Haru y la lleva al reino de los gatos, pero ella solo desea una cosa: escapar y ser libre.s</p>
+      <a href="https://www.netflix.com/watch/70019058?source=35" class="btn btn-primary">Mirar ahora</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagenes/p3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mi vecino Totoro</h5>
+      <p class="card-text">Esta historia animada del director Hayao Miyazaki sigue a las estudiantes y hermanas Satsuke y Mei mientras se establecen en su casa de campo con su padre y esperan a que su madre se recupere de una enfermedad en un hospital del área.</p>
+      <a href="#" class="btn btn-primary">Mirar ahora</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./imagenes/p4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Se levanta el viento</h5>
+      <p class="card-text">Un amor de toda la vida por el vuelo inspira al ingeniero en aviación japonés Jiro Horikoshi, cuya ilustre carrera incluye la creación del avión de combate A6M de la Segunda Guerra Mundial.</p>
+      <a href="https://www.netflix.com/watch/70293674?source=35" class="btn btn-primary">Mirar ahora</a>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div> 
+  <div class="galeria">
+    <img src="./imagenes/c4.gif" alt="">
+    <img src="./imagenes/galeria6.jpg" alt="">
+    <img src="./imagenes/c8.jpg" alt="">
+    <img src="./imagenes/c6.jpg" alt="">
+    <img src="./imagenes/c10.jpg" alt="">
+  </div>
+  <footer>
+    <h3>
+      Neri Cadmiel Alemán Cortez<br>
+      Instagram: 
+       |<a href="https://instagram.com/neri_c_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D">
+        neri_c_ </a
+      > Grupo 8 
+    </h3>
+  </footer>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+  crossorigin="anonymous"
+></script>
+</body>
+</html>

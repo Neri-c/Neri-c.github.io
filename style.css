@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+header{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: #6d8ba5;
+   width: 100%;
+}
+nav{
+    background-color: #485e72;
+}
+img{
+width: 300px;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+}
+header ul li{
+    margin: 30px;
+    color: #19273a;
+    font-family: 'Lilita One', cursive; 
+}
+.presentacion h1{
+    color: #19273a;
+    font-family: 'Lilita One', cursive; 
+}
+.container-xxl{
+    background-image: url('./imagenes/galeria2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Color del texto */
+  }
+  
+  .container-xxl::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Opacidad del fondo (puedes ajustar el valor) */
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 10px;
+  }
+.contenedor{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 10px 0;
+    background-color:#4c6770;
+    align-items: center;
+}
+.contenedor img{
+    border-radius: 50%;
+}
+.contenedor h1{
+font-size: 34px;
+color: #162D4E;
+font-family: 'Lilita One', cursive; 
+}
+.contenedor p{
+    width: 70%;
+font-size: 24px;
+padding: 10px;
+font-family: 'Lilita One', cursive;
+font-family: 'Rajdhani', sans-serif;
+}
+.conten img{
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 15px #111;
+}
+
+.conten img:not(:last-child) {
+    margin-right: 10px;
+}
+
+.conten:hover > :not(:hover) {
+    opacity: 0.3;
+}
+.conten{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+    );
+    gap: 32px;
+}
+@media (max-width: 575.98px) {
+    .conten{
+        display: none;
+    }
+ }
+.caja{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.main{
+    margin: 30px 10px 0 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.main img{
+border-radius: 10%;
+width: 180px;
+height: 300px;
+}
+.main h1{
+    color: #162D4E;
+font-family: 'Lilita One', cursive; 
+}
+.main p{
+font-size: 18px;
+text-align: justify;
+}
+.slide{
+    margin-top: 10px;
+  }
+  .slide img{
+    height: 65vh;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(143, 178, 242);
+  
+  }
+  footer a {
+    color:  #166BC6;
+  }
+  
+.galeria{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+}
+.galeria img:hover{
+    width: 400px;
+    opacity: 1;
+    filter: brightness(130%);
+}

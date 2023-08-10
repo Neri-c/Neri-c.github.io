@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+header{
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: #6d8ba5;
+   width: 100%;
+}
+nav{
+    background-color: #485e72;
+}
+img{
+width: 300px;
+}
+a{
+    text-decoration: none;
+}
+.presentacion{
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #19273a;
+    display: grid;
+    place-items: center;
+}
+.presentacion h1{
+    text-align: center;
+    color:#dadee4;
+    font-family: 'Lilita One', cursive; 
+}
+.presentacion p{
+    text-align: justify;
+    font-size: 20px;
+    color: #758294;
+}
+.slide{
+    margin-top: 10px;
+  }
+  .slide img{
+    height: 65vh;
+  }
+.box{
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    flex-direction: row;
+    place-items: center;
+    width: 100%;
+}
+.card{
+    margin: 10px 10px 10px 10px;
+}
+.card img{
+    align-items: center;
+    width: 260px;
+    height: 380px;
+}
+.main{
+    display: grid;
+    flex-direction: row;
+    place-items: center;
+    width: 100%;
+}
+@media (max-width: 575.98px) {
+    .main{
+        display: none;
+    }
+ }
+ .galeria{
+    display: flex;
+    width: auto;
+    height: 400px;
+ }
+ .galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+ }
+ .galeria img:hover{
+    width: 1200px;
+    opacity: 1;
+    filter: brightness(100%);
+ }
+ @media (max-width: 575.98px) {
+    .galeria{
+        display: none;
+    }
+ }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    background-color: rgb(143, 178, 242);
+  
+  }
+  footer a {
+    color:  #166BC6;
+  }
+  
