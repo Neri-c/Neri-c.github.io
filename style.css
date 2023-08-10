@@ -16,17 +16,6 @@ width: 300px;
 a{
     text-decoration: none;
 }
-header ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-
-}
-header ul li{
-    margin: 30px;
-    color: #19273a;
-    font-family: 'Lilita One', cursive; 
-}
 .presentacion h1{
     color: #19273a;
     font-family: 'Lilita One', cursive; 
@@ -146,6 +135,11 @@ text-align: justify;
   .slide img{
     height: 65vh;
   }
+  @media (max-width: 575.98px) {
+    .slide img{
+        height: 35vh;
+    }
+ }
   footer {
     display: flex;
     justify-content: center;
@@ -157,21 +151,3 @@ text-align: justify;
   footer a {
     color:  #166BC6;
   }
-  
-.galeria{
-    display: flex;
-    max-width: 100%;
-    height: auto;
-}
-.galeria img{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    filter: brightness(80%);
-    transition: .7s ease;
-}
-.galeria img:hover{
-    width: 400px;
-    opacity: 1;
-    filter: brightness(130%);
-}

@@ -1,9 +1,11 @@
-function muestra_oculta (id){
-    let div= document.getElementById(id);
-    if (div.style.display == "none"){
-        div.style.display = "flex";
+function ocultarMostrar() {
+    console.log("Acción Ocultar mostrar");
+  
+    var contenido = document.getElementById("contenidoOcultar");
+    console.log("Contenido valor tiene " + contenido.hidden);
+    if (contenido.hidden) {
+      contenido.hidden = false;
+    } else {
+      contenido.hidden = true;
     }
-    else{
-        div.style.display = "none";
-    }
-}
+  }
